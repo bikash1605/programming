@@ -1,4 +1,4 @@
-package com.personal.algorithms;
+package com.personal.leetcode.binarySearch;
 
 import java.util.Arrays;
 import java.util.Collections;
