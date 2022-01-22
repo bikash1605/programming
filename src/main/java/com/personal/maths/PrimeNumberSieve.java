@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 
  * Program to find prime numbers withing a given range
- *
+ * SIEVE OF ERATOSTHENES
  */
 public class PrimeNumberSieve 
 {

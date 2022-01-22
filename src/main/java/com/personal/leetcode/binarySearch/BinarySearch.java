@@ -5,8 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Program to find prime numbers withing a given range
- * SIEVE OF ERATOSTHENES
+ * Binary Search Basic code
  */
 public class BinarySearch {
     
