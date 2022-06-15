@@ -8,7 +8,8 @@ package com.personal.leetcode.binarySearch;
  */
 public class SqrtOfN {
     public static void main(String[] args) {
-        System.out.println(mySqrt(34562));
+        System.out.println(mySqrt(34562));     
+        
     }
 
     private static int mySqrt(int x) {
