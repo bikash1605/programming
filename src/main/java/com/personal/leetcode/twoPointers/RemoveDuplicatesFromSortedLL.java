@@ -1,4 +1,4 @@
-package com.personal.leetcode.two_pointers;
+package com.personal.leetcode.twoPointers;
 
 /**
  * Definition for singly-linked list.

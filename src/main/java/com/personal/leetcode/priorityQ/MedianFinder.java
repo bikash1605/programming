@@ -1,4 +1,4 @@
-package com.personal.leetcode.slidingWindow;
+package com.personal.leetcode.priorityQ;
 
 import java.util.*;
 
