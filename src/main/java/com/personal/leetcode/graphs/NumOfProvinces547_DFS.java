@@ -9,7 +9,6 @@ public class NumOfProvinces547_DFS {
         for(int i=0;i< num_cities; i++) {
             if (visited[i] == 0) {
                 dfs(isConnected, i, visited);
-                visited[i] = 1;
                 num_provinces++;
             }
         }

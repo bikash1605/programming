@@ -1,17 +1,17 @@
-package com.personal.system_design.lru_cache;
+package com.personal.system_design;
 
 import java.util.HashMap;
 import java.util.Map;
 
-class LRUCache {
+class LRUCache_146 {
     
     final Node head = new Node();
     final Node tail = new Node();
     Map<Integer, Node> node_map;
     int cache_capacity;
 
-    public LRUCache(int capacity) {
-        node_map = new HashMap(capacity);
+    public LRUCache_146(int capacity) {
+        node_map = new HashMap<>(capacity);
         this.cache_capacity = capacity;
         head.next = tail;
         tail.prev = head;
@@ -42,14 +42,13 @@ class LRUCache {
                 node_map.remove(tail.prev.key);
                 remove(tail.prev);
             }
+            Node new_node = new Node();
+            new_node.key = key;
+            new_node.value = value;
+            node_map.put(key, new_node);
+            add(new_node);
             
         }
-        
-        Node new_node = new Node();
-        new_node.key = key;
-        new_node.value = value;
-        node_map.put(key, new_node);
-        add(new_node);
         
     }
     

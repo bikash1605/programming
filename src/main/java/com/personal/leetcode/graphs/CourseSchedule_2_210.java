@@ -3,7 +3,7 @@ package com.personal.leetcode.graphs;
 import java.util.*;
 
 
-class CourseSchedule {
+class CourseSchedule_2_210 {
     
     static int WHITE = 0;
     static int GREY = 1;
@@ -51,6 +51,7 @@ class CourseSchedule {
         
     }
     
+    // Time Complexity : O(V+E)
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         
         this.init(numCourses);

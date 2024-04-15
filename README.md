@@ -9,7 +9,7 @@
 - Dynamic programming: [Link](https://lnkd.in/d85BHsQp) 
     - Problem Set: [Leetcode](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
 
-Great Resource on Binary Search [LInk](https://leetcode.com/discuss/general-discussion/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems).
+Great Resource on Binary Search [Link](https://leetcode.com/discuss/general-discussion/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems).
 
 
 `System Design` :

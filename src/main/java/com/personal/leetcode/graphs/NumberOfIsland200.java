@@ -1,6 +1,8 @@
 package com.personal.leetcode.graphs;
 
 public class NumberOfIsland200 {
+
+    //Time : O(M*N) , Space : O(M*N)
     public int numIslands(char[][] grid) {
         
         if (grid == null || grid.length == 0) {

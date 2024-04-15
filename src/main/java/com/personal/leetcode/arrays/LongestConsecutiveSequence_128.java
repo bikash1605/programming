@@ -3,7 +3,7 @@ package com.personal.leetcode.arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-class LongestIncreasingSequence_128 {
+class LongestConsecutiveSequence_128 {
     public int longestConsecutive(int[] nums) {
           
         Set<Integer> lookup = new HashSet<>();

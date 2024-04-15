@@ -2,6 +2,8 @@ package com.personal.leetcode.priorityQ;
 
 import java.util.*;
 
+// Time Complexity - O(logn) for building min and max heaps
+// Time Complexity - O(1) for gettig median 
 class MedianFinder {
     
     PriorityQueue<Integer> maxHeap;
